@@ -1,0 +1,24 @@
+.total{
+ height: 100%;
+ .header{
+  height: 70px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #001529;
+  color: #adcfef;
+  font-weight: bold;
+ }
+ .container{
+  display: flex;
+  height: calc(100% - 70px);
+ }
+ .menu{
+  width: 28%;
+  background: #001529
+ }
+ .app_container{
+  width: 72%;
+ }
+}
